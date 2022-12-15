@@ -1,0 +1,14 @@
+.header {
+    margin-bottom: 20px;
+}
+
+.header__element {
+    height: 100vh;
+    max-width: none;
+
+    background-image: url("../img/background.png");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+
+}
