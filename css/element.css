@@ -1,0 +1,11 @@
+.element {
+    width: 300px;
+    height: 300px;
+    resize: both;
+    overflow: auto;
+    background-image: url("../img/background.png");
+    background-color: #ccc;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
