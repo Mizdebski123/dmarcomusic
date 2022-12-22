@@ -6,5 +6,36 @@ html {
 ::before,
 ::after {
     box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+
 }
 
+.body {
+    background-color: black;
+}
+
+.white {
+    background-color: rgb(255, 255, 255);
+
+}
+
+.container {
+    display: flex;
+    min-height: 100vh;
+    color: black;
+    justify-content: center;
+    background-image: url("../img/background.png");
+    background-size: cover;
+    background-position: center;
+
+}
+
+.whiteBackground {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    background-image: url("../img/whitebackground.png");
+    background-size: cover;
+    background-position: center;
+}

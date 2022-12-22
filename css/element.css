@@ -1,11 +1,39 @@
-.element {
-    width: 300px;
-    height: 300px;
-    resize: both;
-    overflow: auto;
-    background-image: url("../img/background.png");
-    background-color: #ccc;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+.navigation {
+    display: flex;
+    flex-basis: 40%;
+    justify-content: space-around;
+    margin: 10px;
+    list-style: none;
+
+    text-transform: uppercase;
 }
+
+.navigation__item--link {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+.whitelist {
+    color: black;
+}
+
+.navigation__item--link:hover {
+    color: rgb(103, 97, 90);
+}
+
+.container__button {
+    align-self: flex-start;
+    padding: 10px;
+    margin: 10px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.whiteButton {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;}
